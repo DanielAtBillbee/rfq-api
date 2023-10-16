@@ -39,6 +39,7 @@ components:
           minimum: 0
         shipment:
           type: string
+          maxLength: 3
           enum:
             - FOB
             - DAT
